@@ -1,0 +1,17 @@
+[package]
+name = "ntpd-release"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+octocrab = "0.20.0-alpha.3"
+tokio = { version = "1.27.0", features = ["full"] }
+toml = "0.7.3"
+serde = { version = "1.0.160", features = ["derive"] }
+hyper = "0.14.26"
+async_zip = { version = "0.0.13", features = ["full"] }
+sanitize-filename = "0.4.0"
+
+[workspace]
